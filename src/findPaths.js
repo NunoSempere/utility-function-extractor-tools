@@ -160,10 +160,11 @@ async function findExpectedValuesAndDistributionsForElement({
   // then orders them correctly in the for loop
   // (by flipping the distance to 1/distance when necessary)
   // and then gets the array of weights for the different paths.
-  console.log(
+  /*
+	console.log(
     `findDistance@findPaths.js from ${sourceElementPosition} to ${targetElementPosition}`
   );
-
+  */
   let maxLengthOfPath = Math.abs(sourceElementPosition - targetElementPosition);
   let paths = await findPaths({
     sourceElementName,
@@ -181,6 +182,7 @@ async function findExpectedValuesAndDistributionsForElement({
     let currentSource = sourceElementName;
     let expectedRelativeValue = 1;
     let multipliedDistributionsInPath = 1;
+    let distances = [];
     for (let element of path) {
       let distance = 0;
       let anotherDistributionInPath = 1;
@@ -194,15 +196,16 @@ async function findExpectedValuesAndDistributionsForElement({
         currentSource = element.source;
       }
       expectedRelativeValue = expectedRelativeValue * distance;
+      distances.push(distance);
       multipliedDistributionsInPath = `${multipliedDistributionsInPath} * (${anotherDistributionInPath})`;
     }
     processedPaths.push({
+      distances,
       expectedRelativeValue,
       multipliedDistributionsInPath,
       // path,
     });
   }
-  console.log(processedPaths);
   return processedPaths;
 
   /*
@@ -256,19 +259,19 @@ async function findDistancesFromAllElementsToReferencePoint({
 }) {
   // Simple wrapper function around findDistance
   // Needs to find the reference point first
-  console.log("findDistancesForAllElements@findPaths.js");
+  // console.log("findDistancesForAllElements@findPaths.js");
   /* Get or build reference element */
   let midpoint = Math.round(nodes.length / 2);
   referenceElement = referenceElement || nodes[midpoint];
-  console.log(`referenceElement.position: ${referenceElement.position}`);
+  // console.log(`referenceElement.position: ${referenceElement.position}`);
 
   /* Get distances. */
   let distancesArray = nodes.map((node) => {
     if (node.name == referenceElement.name) {
       return [1];
     } else {
-      console.log("node");
-      console.log(node);
+      // console.log("node");
+      // console.log(node);
       let expectedValuesAndDistributionsForElement =
         findExpectedValuesAndDistributionsForElement({
           sourceElementName: referenceElement.name,

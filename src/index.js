@@ -32,8 +32,12 @@ async function main() {
 
   // Merge sort
   let mergeSortOutput = mergeSort({ list, links });
-  console.log("Output: ");
-  console.log(mergeSortOutput);
+  // console.log("Output: ");
+  console.log("Sorted output: ");
+  console.group();
+  console.log(mergeSortOutput.map((x) => x.name));
+  console.groupEnd();
+  console.log("");
 
   // find Paths
   let nodes = mergeSortOutput.map((element, i) => ({
@@ -49,6 +53,9 @@ async function main() {
     nodes,
     links: linksWithPosition,
   });
-  console.log(paths);
+  // console.log(JSON.stringify(paths, null, 4));
+
+  // Aggregate paths.
+  let aggregatedPaths = aggregatePaths(paths, nodes);
 }
 main();
