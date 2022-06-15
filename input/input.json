@@ -1,0 +1,121 @@
+[
+  {
+    "source": "Wilson Center — AI Policy Seminar Series",
+    "target": "Stanford University — Machine Learning Security Research Led by Dan Boneh and Florian Tramer",
+    "distance": "2.9544401744157858",
+    "reasoning": "",
+    "squiggleString": "1.0 to 20"
+  },
+  {
+    "source": "Wilson Center — AI Policy Seminar Series",
+    "target": "Open Phil AI Fellowship — 2018 Class",
+    "distance": "17.26880537241617",
+    "reasoning": "",
+    "squiggleString": "5 to 40"
+  },
+  {
+    "source": "Stanford University — Machine Learning Security Research Led by Dan Boneh and Florian Tramer",
+    "target": "Open Phil AI Fellowship — 2018 Class",
+    "distance": "10.928343925564945",
+    "reasoning": "",
+    "squiggleString": "5 to 20"
+  },
+  {
+    "source": "UC Berkeley — AI Safety Research (2018)",
+    "target": "Machine Intelligence Research Institute — AI Safety Retraining Program",
+    "distance": "2.0199183621168317",
+    "reasoning": "",
+    "squiggleString": "0.5 to 5"
+  },
+  {
+    "source": "Wilson Center — AI Policy Seminar Series",
+    "target": "UC Berkeley — AI Safety Research (2018)",
+    "distance": "60.597550863504985",
+    "reasoning": "",
+    "squiggleString": "15 to 150"
+  },
+  {
+    "source": "Stanford University — Machine Learning Security Research Led by Dan Boneh and Florian Tramer",
+    "target": "UC Berkeley — AI Safety Research (2018)",
+    "distance": "28.278857069635652",
+    "reasoning": "",
+    "squiggleString": "7 to 70"
+  },
+  {
+    "source": "UC Berkeley — AI Safety Research (2018)",
+    "target": "Open Phil AI Fellowship — 2018 Class",
+    "distance": "2.475347565413537",
+    "reasoning": "",
+    "squiggleString": "1 to 10"
+  },
+  {
+    "source": "Machine Intelligence Research Institute — AI Safety Retraining Program",
+    "target": "Open Phil AI Fellowship — 2018 Class",
+    "distance": "1.2376737827067688",
+    "reasoning": "",
+    "squiggleString": "0.50 to 5.0"
+  },
+  {
+    "source": "Ought — General Support (2018)",
+    "target": "Oxford University — Research on the Global Politics of AI",
+    "distance": "5.040574093355378",
+    "reasoning": "",
+    "squiggleString": "2 to 10"
+  },
+  {
+    "source": "AI Impacts — General Support (2018)",
+    "target": "Michael Cohen and Dmitrii Krasheninnikov — Scholarship Support (2018)",
+    "distance": "2.0199183621168317",
+    "reasoning": "",
+    "squiggleString": "0.5 to 5"
+  },
+  {
+    "source": "AI Impacts — General Support (2018)",
+    "target": "Ought — General Support (2018)",
+    "distance": "1.4772200872078927",
+    "reasoning": "",
+    "squiggleString": "0.50 to 10"
+  },
+  {
+    "source": "Michael Cohen and Dmitrii Krasheninnikov — Scholarship Support (2018)",
+    "target": "Ought — General Support (2018)",
+    "distance": "2.9544401744157858",
+    "reasoning": "",
+    "squiggleString": "1.0 to 20"
+  },
+  {
+    "source": "Wilson Center — AI Policy Seminar Series",
+    "target": "AI Impacts — General Support (2018)",
+    "distance": "108.69186896933863",
+    "reasoning": "",
+    "squiggleString": "20 to 300"
+  },
+  {
+    "source": "Stanford University — Machine Learning Security Research Led by Dan Boneh and Florian Tramer",
+    "target": "AI Impacts — General Support (2018)",
+    "distance": "40.39836724233665",
+    "reasoning": "",
+    "squiggleString": "10 to 100"
+  },
+  {
+    "source": "UC Berkeley — AI Safety Research (2018)",
+    "target": "AI Impacts — General Support (2018)",
+    "distance": "3.384735993842696",
+    "reasoning": "",
+    "squiggleString": "0.5 to 10"
+  },
+  {
+    "source": "Machine Intelligence Research Institute — AI Safety Retraining Program",
+    "target": "AI Impacts — General Support (2018)",
+    "distance": "1.613838309633346",
+    "reasoning": "",
+    "squiggleString": "0.2 to 5"
+  },
+  {
+    "source": "Open Phil AI Fellowship — 2018 Class",
+    "target": "AI Impacts — General Support (2018)",
+    "distance": "1.613838309633346",
+    "reasoning": "",
+    "squiggleString": "0.2 to 5"
+  }
+]
