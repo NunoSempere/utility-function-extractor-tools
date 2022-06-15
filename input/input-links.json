@@ -80,7 +80,7 @@
 
     "reasoning": "AI fellows produced directly relevant research, are more successful",
 
-    "squiggleString": "(0.001 to 0.01)^(-1)"
+    "squiggleString": "(1/(0.001 to 0.01))"
   },
 
   {
@@ -92,7 +92,7 @@
 
     "reasoning": "aI fellows seem to have produced more relevant research, though grant is less counterfactual",
 
-    "squiggleString": "(0.005 to 0.05)^(-1)"
+    "squiggleString": "(1/(0.005 to 0.05))"
   },
 
   {
@@ -140,7 +140,7 @@
 
     "reasoning": "GovAI is doing more work and on a more neglected topic. Both are doing good work, but GOvAI output is bigger",
 
-    "squiggleString": "(0.01 to 0.05)^(-1)"
+    "squiggleString": "(1/(0.01 to 0.05))"
   },
 
   {
@@ -212,7 +212,7 @@
 
     "reasoning": "Fellows seem to have produced more relevant research",
 
-    "squiggleString": "(0.001 to 0.01)^(-1)"
+    "squiggleString": "(1/(0.001 to 0.01))"
   },
 
   {
@@ -224,7 +224,7 @@
 
     "reasoning": "Fellows produced more relevant research, AI impacts work is cool though",
 
-    "squiggleString": "(0.05 to 0.1)^(-1)"
+    "squiggleString": "(1/(0.05 to 0.1))"
   },
 
   {
