@@ -2,6 +2,10 @@
   "name": "utility-extractor-processing",
   "version": "0.0.1",
   "description": "Process the json produced by utility-function-extractor.quantifieduncertainty.org",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "type": "module",
   "main": "src/index.js",
   "author": "Nuño Sempere",
   "license": "MIT"
